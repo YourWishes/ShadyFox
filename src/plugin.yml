@@ -1,0 +1,26 @@
+name: ShadyFox
+description: Track player's IP addresses and logins.
+main: com.domsplace.ShadyFox.ShadyFoxPlugin
+authors: [Dominic]
+website: http://domsplace.com/
+version: 1.00
+load: POSTWORLD
+permission: You don't have permission.
+commands:
+   shadylookup:
+      description: Lookup a player or IP address.
+      usage: /<command> [player/IP]
+      aliases: [lookup, find, getip]
+      permission: ShadyFox.lookup
+permissions:
+   ShadyFox.*:
+     description: Gives access to all ShadyFox permissions.
+     children:
+       ShadyFox.lookup: true
+       ShadyFox.notify: true
+   ShadyFox.lookup:
+     description: Allows players to lookup other players.
+     default: op
+   ShadyFox.notify:
+     description: Will send a notification if two players are using the same IP addresses.
+     default: op
