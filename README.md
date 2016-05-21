@@ -1,4 +1,4 @@
-ShadyFox
-========
+# THIS PROJECT IS NO LONGER BEING MAINTAINED, PLEASE CONTACT ME IF YOU WANT TO CONTINUE THIS PROJECT
 
-ShadyFox is a plugin that shows what players are using what IP addresses, and what IP addresses are owned by what Players.
+This project is KNOWN to have potential security issues with SQL as well as memory inefficiency and may not be compatible with the latest version of Bukkit (Required for this project to run)
+This git repo is for archive purposes only. Refer to http://dev.bukkit.org/bukkit-plugins/shadyfox/ for more information.
